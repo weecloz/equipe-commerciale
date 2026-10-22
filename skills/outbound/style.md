@@ -25,6 +25,7 @@ Un message de prospection doit pouvoir avoir été écrit par l'utilisateur, à 
 - **Les compliments génériques** (« J'ai été impressionné par votre parcours », « Une belle entreprise comme la vôtre »).
 - **« En tant que [poste] »** pour ouvrir : on dirait une variable de publipostage.
 - **Le mélange tu / vous** dans un même message.
+- **Ce qui sent la base de données** : une tranche d'effectif du registre (« entre dix et dix-neuf salariés »), une adresse complète avec le numéro, un code NAF, un chiffre d'affaires, la liste de ses outils. Un humain dirait « votre boutique de la Croix-Rousse » ou « avec une équipe d'une quinzaine de personnes » (seulement si l'ordre de grandeur est sûr). Garde un seul fait, dit comme on le dirait à voix haute.
 
 ## Le registre
 
