@@ -1,6 +1,6 @@
 # Exemple : « Aide-moi à augmenter mon taux de closing »
 
-*Réponse réelle de l'équipe sur 2 calls, raccourcie. Les noms ont été changés.*
+*Adaptée d'une vraie réponse de l'équipe sur 2 calls, raccourcie. Le call avec Claire est un call de test fictif ; pour Marc, les noms et les citations ont été changés.*
 
 **Le chef** : Je lance temps de parole, objections et grille de qualif sur chacun de tes 2 calls, puis l'autopsie sur l'ensemble.
 
@@ -10,7 +10,7 @@ Ce ne sont pas des deals perdus, donc je cherche ce qui freine la signature. Ave
 
 1. **Tu réponds à la méfiance par une promesse, pas par une question.** Claire : [02:12] « …on a déjà testé une application l'an dernier, les filles ne l'ont jamais utilisée. » → toi : « la nôtre est très simple ».
 2. **Le prix n'est pas relié à la douleur.** Claire : [01:49] « …C'est beaucoup pour nous, le tableur ne nous coûte rien… » → toi, 6 secondes plus tard : une remise de 20 %.
-3. **Le doute n'est pas traité avant de conclure.** Marc : [74:32] « C'est encore un acte de foi » → tu démarres sans y répondre.
+3. **Le doute n'est pas traité avant de conclure.** Marc : [74:30] « Je vous fais confiance, mais c'est un pari » → tu démarres sans y répondre.
 
 **À changer au prochain call**
 - Avant de présenter, demande pourquoi les autres solutions ont échoué.

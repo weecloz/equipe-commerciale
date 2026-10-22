@@ -52,6 +52,9 @@ Les agents lisent librement les outils listés dans `mes-outils.md` (enrichir un
 3. Rends compte ligne par ligne (faite / pas faite et pourquoi), et note le résultat dans `actions-a-valider.md`.
 
 Ne lance jamais l'envoi d'un email ni d'une séquence : tu peux créer un brouillon ou charger une séquence en pause, c'est l'utilisateur qui envoie.
+- **Outil de séquences** : n'ajoute jamais de contacts à une campagne déjà active (ils partiraient en envoi). Crée toujours une **nouvelle campagne, en pause**, et écris-le dans la ligne d'action (« nouvelle campagne en pause »). Avant d'exécuter, vérifie son statut.
+- **Enrichissement** : il consomme des crédits. Quand tu fais valider la liste de comptes, annonce combien de contacts seront enrichis (« je vais enrichir 15 contacts avec FullEnrich »).
+- **Une sortie dans chaque email** : la liste d'envoi rappelle d'ajouter, sous la signature, une ligne pour ne plus être contacté (ex. « Si ce n'est pas un sujet pour vous, dites-le-moi et je ne vous écrirai plus. »).
 
 ## L'échantillon avant la prospection
 

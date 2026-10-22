@@ -29,9 +29,10 @@ Pour chaque mission : les agents dans l'ordre, ce que chaque étape passe à la 
 5. En même temps, avec `faits.md` et `messages-qui-marchent/` :
    - `prospection-email` → `emails.md`
    - `prospection-linkedin` → `linkedin.md`
+   - si un outil de séquences est listé dans `mes-outils.md` : `prospection-sequence`, avec `faits.md`, pour écrire les emails 2 et 3 de chaque compte → `sequence.md`
    Dis-leur que tu fais la liste d'envoi toi-même.
 6. Toi :
-   - relance `python3 <plugin>/skills/outbound/scripts/verifier_message.py` sur `emails.md` et `linkedin.md` ; si ce n'est pas `OK`, renvoie le fichier à son agent ;
+   - relance `python3 <plugin>/skills/outbound/scripts/verifier_message.py` sur `emails.md`, `linkedin.md` (et `sequence.md` s'il existe) ; si ce n'est pas `OK`, renvoie le fichier à son agent ;
    - une seule liste d'envoi du jour, au format de `<plugin>/skills/modeles/liste-envoi.md` → `liste-envoi.md` (pour LinkedIn : invitation sans note, puis message 1 à J1-J2 après acceptation) ;
    - si des outils sont connectés : `actions-a-valider.md` (créer les contacts dans le CRM, charger la séquence en pause dans l'outil de séquences, créer des brouillons), puis fais-les valider.
 

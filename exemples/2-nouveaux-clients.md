@@ -1,6 +1,6 @@
 # Exemple : « Trouve-moi 15 TPE à Lyon pour ma cible 1 »
 
-*Réponse réelle de l'équipe, raccourcie. L'offre est un logiciel de paie fictif pour les TPE ; les entreprises ont été renommées. Les vrais comptes avaient chacun leurs sources (registre officiel des entreprises, annuaires, presse).*
+*Adapté d'une vraie réponse de l'équipe, raccourcie. L'offre est un logiciel de paie fictif ; les entreprises, les prénoms et les détails ont été changés. Les vrais comptes avaient chacun leurs sources (registre officiel des entreprises, annuaires, presse).*
 
 **Le chef** : Avant de chercher, montre-moi 3 à 5 messages de prospection qui ont eu des réponses, et pour quelle cible. Si tu n'en as pas, l'équipe partira des exemples de base.
 
@@ -10,7 +10,7 @@
 
 | # | Entreprise | Quartier | Effectif | Dirigeant |
 |---|---|---|---|---|
-| 1 | une pizzeria (60 couverts, terrasse) | Lyon 7e | 10 à 19 | gérant |
+| 1 | une brasserie avec terrasse | Lyon 3e | 10 à 19 | gérant |
 | 2 | une boulangerie | Lyon 5e | 10 à 19 | gérant |
 | 3 | un fleuriste | Lyon 3e | 6 à 9 | gérant |
 | 4 | une pharmacie | Lyon 3e | 6 à 9 | président de SAS |
@@ -28,32 +28,32 @@ Ces comptes te vont ? Je cherche le reste sur ce modèle ?
 
 **Extrait du bloc de faits** (`faits.md`) :
 
-> **Poissonnerie de la Croix-Rousse** — Décideur : le gérant (registre officiel). Faits : poissonnerie artisanale, boulevard de la Croix-Rousse, 10 à 19 salariés, 3 apprentis accueillis en 3 ans (La bonne alternance). Signal retenu : aucun signal récent. Angle : la paie d'une équipe qui forme des apprentis, confiée à un cabinet.
+> **Charcuterie de la Guillotière** — Décideur : le gérant (registre officiel). Faits : charcuterie traiteur près du marché, deux apprentis accueillis cette année (La bonne alternance). Signal retenu : aucun signal récent. Angle : les contrats d'apprentissage et leur paie, confiés à un cabinet.
 
 **Deux emails** (contrôlés par le script) :
 
 ```
-### Poissonnerie de la Croix-Rousse — email 1
-Objet : vos apprentis
+### Charcuterie de la Guillotière — email 1
+Objet : vos deux apprentis
 
-Bonjour Jean-Luc,
+Bonjour Bernard,
 
-Trois apprentis accueillis en trois ans à la poissonnerie de la Croix-Rousse, avec les contrats et les fiches de paie que ça suppose. Ces contrats sont gérés par votre cabinet ou chez vous ?
+Deux apprentis accueillis cette année à la charcuterie, avec leurs contrats et leurs fiches de paie à part. Ces dossiers sont gérés par votre cabinet ou chez vous ?
 ```
 
 ```
-### Pizzeria du 7e — email 1
-Objet : la paie de l'équipe
+### Brasserie du 3e — email 1
+Objet : les extras du samedi
 
-Bonjour Georges,
+Bonjour Karim,
 
-Soixante couverts en salle et quarante places en terrasse, ça demande une belle équipe à payer chaque mois. La paie, vous la confiez à un cabinet ou vous la gérez vous-même ?
+Une salle de quatre-vingts couverts avec terrasse, ça veut dire des extras certains week-ends. Quand l'un d'eux arrive en plein service, sa fiche de paie, qui la prépare ?
 ```
 
 **LinkedIn** : invitation sans note, puis le message 1 à envoyer 1 à 2 jours après l'acceptation.
 
 ```
-### Pizzeria du 7e — linkedin-invitation 1
+### Brasserie du 3e — linkedin-invitation 1
 (sans note)
 ```
 

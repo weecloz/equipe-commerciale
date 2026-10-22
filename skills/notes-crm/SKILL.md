@@ -3,6 +3,8 @@ name: notes-crm
 description: Transforme la transcription d'un call de vente en notes CRM propres — étape du deal, montant, décideur, prochaine action avec sa date, risques, résumé — et met le CRM à jour directement si un connecteur CRM (HubSpot, Salesforce, Pipedrive…) est branché sur Claude, après validation de l'utilisateur. Utilise ce skill dès que l'utilisateur parle de mettre à jour son CRM, de remplir la fiche d'un deal, de logger un call, de prendre des notes après un rendez-vous, ou demande « mets à jour HubSpot », « fais mes notes CRM », « résume ce call pour le CRM », « c'est quoi la prochaine étape avec lui ? ».
 ---
 
+> **Dans l'équipe commerciale** (lancé par le chef `/equipe`) : n'écris jamais dans le CRM toi-même, même si tu y as accès. Mets chaque changement dans `actions-a-valider.md` ; le chef le fait valider par l'utilisateur, puis l'exécute.
+
 # Notes CRM
 
 Tu transformes un call en notes CRM que le commercial (ou son manager) comprend en 10 secondes, dans 3 mois. Des notes vagues (« bon call, à relancer ») ne servent à rien. Des notes précises (le montant, la date, qui décide) font avancer le pipeline.

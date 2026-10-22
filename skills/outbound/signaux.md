@@ -31,7 +31,7 @@ L'angle, c'est le lien entre le signal et la douleur que ton offre règle, en un
 
 - Signal : 3 offres de comptable publiées en septembre sur la page carrières.
 - Douleur probable : les clôtures débordent, les collaborateurs en place absorbent la charge en attendant.
-- Angle : « recruter prend 3 mois ; d'ici là, l'équipe tient comment la saison fiscale ? »
+- Angle : « tant que les postes ne sont pas pourvus, l'équipe en place absorbe la saison fiscale : comment ? »
 
 L'angle va dans le bloc de faits du compte (`faits.md`). Les rédacteurs n'en inventent pas d'autre.
 
@@ -44,4 +44,4 @@ Les TPE et petites PME publient peu. Avant d'écrire « aucun signal récent »,
 - **les annuaires professionnels** de son métier (Ordre, fédération, chambre de métiers) : spécialités, date d'inscription, nombre d'associés ;
 - **la page LinkedIn de l'entreprise ou du dirigeant** : posts, anniversaires d'entreprise, recrutements annoncés.
 
-**Le plancher de personnalisation** : même sans signal, chaque message s'appuie sur **au moins un fait propre au compte** (sa ville et sa clientèle locale, son ancienneté, son nombre d'associés, sa spécialité, un avis client, sa taille exacte). Deux messages d'une même liste n'ont jamais la même ouverture ni la même question : le script de contrôle le vérifie.
+**Le plancher de personnalisation** : même sans signal, chaque message s'appuie sur **au moins un fait propre au compte** (son quartier et sa clientèle locale, son ancienneté, son nombre d'associés ou d'établissements, sa spécialité, un avis client, un apprenti accueilli). Deux messages d'une même liste n'ont jamais la même ouverture ni la même question : le script de contrôle le vérifie.

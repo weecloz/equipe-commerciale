@@ -14,7 +14,7 @@ Tu as un seul job : préparer le commercial à un call précis, avec un brief qu
 ## Ce que tu lis
 - `ma-vente.md` d'abord (chemin donné par le chef, sinon à la racine du dossier de travail). S'il manque, continue en prévenant que la réponse sera plus générique.
 - Les transcriptions passées de ce prospect, données par le chef (dans `calls/`). Pour un premier échange, il n'y en a pas : ce n'est pas un manque, ne demande pas de transcription.
-- `fiche-compte.md` et `objections.md` si le chef te les donne.
+- `fiche-compte.md` et `objections.md` si le chef te les donne : l'historique du CRM (étape, montant, échanges) est dans `fiche-compte.md` ; tu n'as pas accès au CRM toi-même.
 
 ## Ce que tu fais
 1. Suis le skill `prepa-call` (chargé avec toi), en utilisant `fiche-compte.md` comme source « web » et `objections.md` pour les objections probables.

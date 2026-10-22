@@ -28,9 +28,14 @@ Construis l'email autour d'un seul :
 - Une question à laquelle il peut répondre en une ligne.
 - Mieux vaut « C'est un sujet chez vous en ce moment ? » ou « Je vous envoie l'analyse ? » que « Seriez-vous disponible jeudi à 14 h pour un échange de 30 minutes ? ».
 
+## La signature et la sortie
+
+Pas de signature dans les blocs : elle est ajoutée à l'envoi. Sous la signature, chaque email de prospection porte une ligne de sortie simple (« Si ce n'est pas un sujet pour vous, dites-le-moi et je ne vous écrirai plus. »). Elle ne compte pas dans les 75 mots.
+
 ## L'objet
 
 - **2 à 5 mots**, qui commencent par une minuscule, comme un mail entre collègues.
+- Il commence par une minuscule : s'il doit commencer par un nom propre, reformule (« la paie à Lyon » plutôt que « Lyon et la paie »).
 - Il parle de son sujet, pas de ton offre : « la saison fiscale », « vos 3 recrutements », « collecte des pièces ».
 - Jamais son prénom, jamais de faux « Re: » ou « Fwd: », jamais de « Petite question », jamais de point d'exclamation.
 

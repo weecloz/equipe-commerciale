@@ -26,7 +26,7 @@ Ce skill rassemble ce qu'il faut savoir pour trouver, analyser et contacter des 
 
 ## Le contrôle
 
-Toute rédaction se termine par :
+Toute rédaction de prospection à froid (emails, LinkedIn, séquences, demande de recommandation) se termine par le script ci-dessous. Une relance après un call suit le skill `relance` et n'y passe pas.
 
 ```
 python3 <dossier de ce skill>/scripts/verifier_message.py <ton fichier de messages>
@@ -43,4 +43,6 @@ Objet : <objet>          (emails seulement)
 
 Canaux : `email`, `email-rupture`, `linkedin-invitation`, `linkedin-message`. Pour une invitation LinkedIn, le corps est exactement `(sans note)`.
 
-S'il répond autre chose que `OK`, réécris les messages signalés et relance-le, jusqu'à `OK`. Le script ne voit pas tout : relis aussi chaque message avec la grille de `style.md`.
+S'il répond autre chose que `OK`, réécris les messages signalés et relance-le, **3 fois au plus** ; s'il reste des défauts, rends la main au chef en les listant. Si Python n'est pas installé sur l'ordinateur (la commande échoue ou ouvre une fenêtre d'installation), ne réessaie pas : vérifie chaque message à la main avec les règles ci-dessous et dis-le au chef.
+
+Les règles du script : email ≤ 75 mots et une seule question ; rupture ≤ 40 mots ; message LinkedIn ≤ 60 mots et une seule question ; invitation `(sans note)` ; objet de 2 à 5 mots commençant par une minuscule, sans « re: » ; ni « Je », « J' » ni « Nous » en tête ; aucun lien ; aucune formule de `style.md` ; aucune donnée du registre récitée ; pas deux messages avec la même ouverture ou la même question. Le script ne voit pas tout : relis aussi chaque message avec la grille de `style.md`.

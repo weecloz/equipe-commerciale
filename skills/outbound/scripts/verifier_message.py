@@ -16,6 +16,9 @@ LISTE_NOIRE = ["j'espère que vous allez bien", "j'espère que tu vas bien", "je
                "levier", "synergie", "solution innovante", "révolutionn", "incontournable",
                "game changer", "—", "!"]
 SALUT = re.compile(r"^(bonjour|salut|hello|bonsoir)\b[^\n]*,\s*$", re.I)
+SALUT_EN_TETE = re.compile(r"^(bonjour|salut|hello|bonsoir)\b[^,\n]{0,40},\s*", re.I)
+URL = re.compile(r"(https?://\S+|www\.\S+)", re.I)
+REGISTRE = re.compile(r"(entre\s+\S+\s+et\s+\S+\s+(salariés|personnes|employés)|code\s+naf|\bnaf\b|chiffre d'affaires de)", re.I)
 ENTETE = re.compile(r"^###\s+(.+?)\s+—\s+([a-z-]+)\s*(\d*)\s*$")
 
 
@@ -55,10 +58,17 @@ def _check(b) -> list[str]:
     if corps_lignes and SALUT.match(corps_lignes[0]):
         corps_lignes = corps_lignes[1:]
     corps = " ".join(corps_lignes)
+    corps = SALUT_EN_TETE.sub("", corps, count=1) if SALUT_EN_TETE.match(corps) else corps
+    liens = URL.findall(corps)
+    sans_liens = URL.sub(" ", corps)
     mots = len(corps.split())
     if mots > LIMITES[canal]:
         errs.append(f"{t} : {mots} mots, {LIMITES[canal]} au plus")
-    q = corps.count("?")
+    q = sans_liens.count("?")
+    if liens and canal in ("email", "linkedin-message"):
+        errs.append(f"{t} : pas de lien dans un premier contact ({liens[0]})")
+    if REGISTRE.search(corps):
+        errs.append(f"{t} : donnée du registre récitée (« {REGISTRE.search(corps).group(0)} ») : dis-le comme on le dirait à voix haute")
     if canal in UNE_QUESTION and q != 1:
         errs.append(f"{t} : {q} question(s), il en faut exactement une")
     if canal == "email-rupture" and q > 1:
@@ -67,7 +77,7 @@ def _check(b) -> list[str]:
     for w in LISTE_NOIRE:
         if w in bas:
             errs.append(f"{t} : formule interdite « {w} »")
-    if re.match(r"^(je|nous)\b", bas):
+    if re.match(r"^(je\b|j'|nous\b)", bas):
         errs.append(f"{t} : le message commence par « Je » ou « Nous »")
     brut = " ".join(b["lignes"]) + " " + (objet or "")
     if "[" in brut or "]" in brut:

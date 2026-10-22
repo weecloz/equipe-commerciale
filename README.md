@@ -186,8 +186,8 @@ flowchart LR
 ```
 
 - **Le chef** (`skills/equipe/`) lit ta demande, choisit les agents dans l'organigramme, annonce son plan en une ligne, lance les agents (jusqu'à 5 en même temps) et te rend une synthèse courte.
-- **Chaque agent** (`agents/`) a un seul job, les outils strictement nécessaires (le web seulement pour la stratégie et la recherche) et un format de sortie fixe. Plusieurs s'appuient sur des skills de vente (`skills/`) : prépa de call, détecteur d'objections, temps de parole (compté par un script, pas estimé), relance…
-- **Ton dossier de travail** contient tout : `ma-vente.md`, `calls/` et `livrables/`. Rien ne part ailleurs.
+- **Chaque agent** (`agents/`) a un seul job et un format de sortie fixe. Les agents de stratégie et de recherche ont le web ; ceux qui travaillent avec tes outils (recherche, qualification, pipeline, comptes) ont accès à tes connecteurs, en lecture seule ; les autres n'ont que leurs fichiers. Plusieurs s'appuient sur des skills de vente (`skills/`) : prépa de call, détecteur d'objections, temps de parole (compté par un script, pas estimé), relance…
+- **Ton dossier de travail** contient tout : ton profil, `calls/` et `livrables/`. Les seules données qui en sortent vont vers tes outils connectés (enrichissement, CRM, séquences), et seulement pour la mission en cours.
 
 ## Des messages qui ne sentent pas le modèle
 
@@ -198,7 +198,7 @@ Tous les agents de prospection s'appuient sur le skill `outbound`, écrit pour l
 - **le premier email** : moins de 75 mots, une observation, une seule question, pas de pitch, un objet en minuscules ;
 - **LinkedIn** : invitation **sans note**, premier message après l'acceptation, sans lien ni pitch ;
 - **une liste noire** de formules (« je me permets », « n'hésitez pas », « booster »…) ;
-- **un script contrôle chaque message** avant que tu le voies : longueur, une seule question, mots interdits, objet, invitation sans note, et deux messages d'une même liste qui se ressemblent trop.
+- **un script contrôle chaque message de prospection** avant que tu le voies : longueur, une seule question, mots interdits, objet, invitation sans note, et deux messages d'une même liste qui se ressemblent trop.
 
 ## Les règles de toute l'équipe
 
