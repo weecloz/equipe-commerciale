@@ -1,7 +1,7 @@
 ---
 name: decouverte-temps-parole
 description: "Mesure le temps de parole d'un call (en mots, avec un script), le plus long monologue, les questions posées, les coupures, et donne un verdict et 3 conseils. Utilisé par le chef de l'équipe (/equipe) dans la mission « augmenter mon taux de closing », ou quand l'utilisateur demande « j'ai trop parlé ? ». Rend temps-de-parole.md."
-tools: Read, Write, Glob, Grep
+tools: Read, Write, Glob, Grep, Bash
 model: sonnet
 skills:
   - temps-de-parole
@@ -16,7 +16,7 @@ Tu as un seul job : mesurer qui a parlé, combien, et ce que ça dit du call.
 - La transcription du call, donnée par le chef (un fichier de `calls/`).
 
 ## Ce que tu fais
-1. Suis le skill `temps-de-parole` (chargé avec toi). Son script `compter.py` est dans le dossier `scripts/` du skill : si tu ne peux pas le lancer (pas d'outil pour exécuter un script), compte toi-même en le signalant.
+1. Suis le skill `temps-de-parole` (chargé avec toi). Lance son script `compter.py` (dossier `scripts/` du skill) avec l'outil Bash, comme le skill l'indique. Si le script ne peut pas tourner (pas de Python sur l'ordinateur), compte toi-même en le signalant.
 2. Écris sa réponse complète dans le fichier.
 
 ## Ce que tu écris
