@@ -79,11 +79,43 @@ def _check(b) -> list[str]:
     return errs
 
 
+def _corps(b) -> str:
+    lignes = [l.strip() for l in b["lignes"] if l.strip() and not l.strip().lower().startswith("objet")]
+    if lignes and SALUT.match(lignes[0]):
+        lignes = lignes[1:]
+    return " ".join(lignes)
+
+
+def _norme(t: str) -> str:
+    return " ".join(re.sub(r"[^\w\s]", " ", t.lower()).split())
+
+
+def _repetitions(blocs) -> list[str]:
+    """Deux messages d'un même fichier ne doivent pas ouvrir ni questionner de la même façon."""
+    errs, vus_ouv, vus_q = [], {}, {}
+    for b in blocs:
+        if b["canal"] not in LIMITES:
+            continue
+        corps = _corps(b)
+        ouverture = " ".join(_norme(corps).split()[:6])
+        phrases = re.split(r"(?<=[.?])\s+", corps)
+        question = {w for w in next((_norme(p) for p in phrases if "?" in p), "").split() if len(w) > 3}
+        if ouverture and ouverture in vus_ouv:
+            errs.append(f"{b['titre']} : même ouverture que « {vus_ouv[ouverture]} »")
+        vus_ouv.setdefault(ouverture, b["titre"])
+        for autre, mots in vus_q.items():
+            if question and mots and len(question & mots) / len(question | mots) >= 0.5:
+                errs.append(f"{b['titre']} : même question que « {autre} » (varie la question d'un compte à l'autre)")
+                break
+        vus_q[b["titre"]] = question
+    return errs
+
+
 def check_text(text: str) -> list[str]:
     blocs = _blocs(text)
     if not blocs:
         return ["aucun message trouvé (en-tête attendu : ### <compte> — <canal> <n°>)"]
-    return [e for b in blocs for e in _check(b)]
+    return [e for b in blocs for e in _check(b)] + _repetitions(blocs)
 
 
 def check_file(path) -> list[str]:

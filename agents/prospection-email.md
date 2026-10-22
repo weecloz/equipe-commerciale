@@ -22,7 +22,7 @@ Tu as un seul job : écrire, pour chaque compte, un premier email que seul ce pr
 1. Relis les gagnants de la cible : leur longueur, leur ouverture, leur type de question, leur registre. C'est ton modèle. Sans gagnant, prends `outbound/exemples.md` et dis-le au chef.
 2. Pour chaque compte, écris l'email 1 selon `outbound/email.md` : l'angle de `faits.md`, une observation, une question, moins de 75 mots, pas de pitch ni de nom de produit, objet de 2 à 5 mots en minuscules.
 3. Écris chaque email au format bloc du skill outbound (`### <compte> — email 1`, puis `Objet : …`, puis le corps), sans signature.
-4. Relis chaque email avec la grille de `outbound/style.md`.
+4. Relis chaque email avec la grille de `outbound/style.md`. Chaque email part d'un fait propre à son compte (dans `faits.md`) ; deux emails de la liste n'ont jamais la même ouverture ni la même question, même quand l'angle est proche.
 5. Lance `python3 <dossier du skill outbound>/scripts/verifier_message.py emails.md` ; réécris les emails signalés et relance jusqu'à `OK`.
 
 ## Ce que tu écris

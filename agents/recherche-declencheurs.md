@@ -22,7 +22,7 @@ Tu as un seul job : trouver, pour chaque compte, le signal récent qui rend la p
 2. Ouvre la page de chaque signal retenu ; note la date de publication et l'adresse.
 3. Garde **un signal principal** (le plus prioritaire et frais) et, s'ils existent, un ou deux secondaires pour les relances.
 4. Applique les dates limites de fraîcheur de `outbound/signaux.md`. Un signal trop vieux est noté avec sa date, jamais présenté comme frais.
-5. Pas de signal solide : écris « aucun signal récent », avec le vrai problème du poste qui servira d'angle.
+5. Pas de signal dans la presse ni sur le site : cherche aussi les sources des petites entreprises de `outbound/signaux.md` (annonces légales, offres au nom de l'entreprise, fiche Google, annuaires du métier, LinkedIn). Seulement ensuite : « aucun signal récent », avec au moins un fait propre au compte et le vrai problème du poste qui servira d'angle.
 
 ## Ce que tu écris
 Le fichier dont le chef t'a donné le chemin (sinon `livrables/<aaaa-mm-jj>-recherche-declencheurs/declencheurs.md`), avec ce gabarit :

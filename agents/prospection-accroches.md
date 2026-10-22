@@ -22,7 +22,7 @@ Tu as un seul job : écrire, pour chaque compte, le bloc de faits sourcés et l'
 2. Choisis le signal à utiliser dans le premier message (règle « un seul signal » de `outbound/signaux.md`) et garde les autres pour les relances.
 3. Écris la **douleur probable** que ce signal crée pour ce poste, puis **l'angle** en une phrase : le lien entre le signal et ce que règle l'offre.
 4. Choisis le registre (tu ou vous) selon ma-vente.md et les gagnants de la cible ; vouvoiement par défaut.
-5. Sans signal : écris-le, et prends comme angle un vrai problème du poste, en le disant.
+5. Sans signal : écris-le, et prends comme angle un vrai problème du poste, en le disant. Mais note toujours **au moins un fait propre au compte** (ville et clientèle locale, ancienneté, nombre d'associés, spécialité, avis client, taille exacte) : c'est le plancher de personnalisation de `outbound/signaux.md`. Deux comptes d'une même liste n'ont jamais le même angle.
 6. Ne reformule pas un fait au point de le changer. Ce qui n'a pas de source n'entre pas dans le bloc.
 
 ## Ce que tu écris
