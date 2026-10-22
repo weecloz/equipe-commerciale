@@ -27,7 +27,11 @@ def _blocs(text: str):
             cur = {"titre": line.strip()[4:], "canal": m.group(2), "lignes": []}
             blocs.append(cur)
         elif cur is not None:
-            cur["lignes"].append(line)
+            brut = line.strip()
+            if brut.startswith("```") or re.match(r"^#{1,2}\s", brut) or re.match(r"^#{4,}\s", brut):
+                cur = None  # fin du bloc : ce qui suit n'est plus le message
+            else:
+                cur["lignes"].append(line)
     return blocs
 
 

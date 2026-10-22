@@ -1,21 +1,62 @@
-# Exemple : « Trouve-moi 5 nouveaux clients »
+# Exemple : « Trouve-moi 15 TPE à Lyon pour ma cible 1 »
 
-*Réponse réelle de l'équipe, raccourcie et anonymisée. Les vrais comptes avaient chacun l'adresse de la page ouverte comme source.*
+*Réponse réelle de l'équipe, raccourcie. L'offre est un logiciel de paie fictif pour les TPE ; les entreprises ont été renommées. Les vrais comptes avaient chacun leurs sources (registre officiel des entreprises, annuaires, presse).*
 
-**Le chef** : Je lance : portrait du client idéal → recherche de comptes → décideurs et déclencheurs en même temps → accroches → emails et LinkedIn en même temps. Puis je fais ta liste d'envoi du jour.
+**Le chef** : Avant de chercher, montre-moi 3 à 5 messages de prospection qui ont eu des réponses, et pour quelle cible. Si tu n'en as pas, l'équipe partira des exemples de base.
+
+**L'utilisatrice** : Je n'en ai pas, je débute la prospection.
+
+**Le chef** : Plan : portrait de la cible 1, puis un échantillon de comptes à Lyon que tu valides, puis le reste, les décideurs, les signaux et les messages.
+
+| # | Entreprise | Quartier | Effectif | Dirigeant |
+|---|---|---|---|---|
+| 1 | une pizzeria (60 couverts, terrasse) | Lyon 7e | 10 à 19 | gérant |
+| 2 | une boulangerie | Lyon 5e | 10 à 19 | gérant |
+| 3 | un fleuriste | Lyon 3e | 6 à 9 | gérant |
+| 4 | une pharmacie | Lyon 3e | 6 à 9 | président de SAS |
+| 5 | un bar à jus (plusieurs adresses) | Lyon 1er | 10 à 19 | gérant |
+
+Ces comptes te vont ? Je cherche le reste sur ce modèle ?
+
+**L'utilisatrice** : Pas de pharmacies ni de franchises : les pharmacies ont déjà leur logiciel métier et les franchises font la paie au siège.
+
+**Le chef** : C'est noté dans « ne pas viser » de ta cible. Je retire la pharmacie et le bar à jus, et je cherche le reste sans eux.
 
 ---
 
-**5 comptes trouvés, 7 écartés faute de source solide** (site bloqué, taille introuvable, pas de site propre…).
+**15 TPE retenues, une vingtaine écartées** (hors Lyon, holdings, réseaux, activité introuvable). Aucun signal d'achat récent sur ces 15 : chaque message part d'un fait propre au compte.
 
-| # | Compte | Pourquoi il colle | Déclencheur | Source |
-|---|---|---|---|---|
-| 1 | Une équipe familiale (Tennessee) | Courtage « boutique », 100 % résidentiel | N°1 des équipes de sa ville en transactions (classement de juillet) | adresse de l'article |
-| 2 | Une équipe de 4 agents (Missouri) | Petite équipe, achat et vente, primo-accédants | 112 transactions en 2025, 3e équipe de sa ville | adresse du classement |
-| 3 | Une équipe de 2 agents (Washington) | Acheteurs et vendeurs, ressources primo-accédants | aucun déclencheur récent | adresse du site |
+**Extrait du bloc de faits** (`faits.md`) :
 
-**Décideurs** : nommés quand une page publique les cite, sinon « à confirmer ». Aucune adresse mail devinée.
+> **Poissonnerie de la Croix-Rousse** — Décideur : le gérant (registre officiel). Faits : poissonnerie artisanale, boulevard de la Croix-Rousse, 10 à 19 salariés, 3 apprentis accueillis en 3 ans (La bonne alternance). Signal retenu : aucun signal récent. Angle : la paie d'une équipe qui forme des apprentis, confiée à un cabinet.
 
-**L'invitation LinkedIn** (compte 2) : « Salut Tom, 112 transactions en 2025, 3e équipe de ta ville par volume : bravo. Ravi de me connecter. »
+**Deux emails** (contrôlés par le script) :
 
-**La liste d'envoi du jour** : 10 lignes (email et LinkedIn), dans l'ordre conseillé. Tu copies, tu envoies : rien n'est parti.
+```
+### Poissonnerie de la Croix-Rousse — email 1
+Objet : vos apprentis
+
+Bonjour Jean-Luc,
+
+Trois apprentis accueillis en trois ans à la poissonnerie de la Croix-Rousse, avec les contrats et les fiches de paie que ça suppose. Ces contrats sont gérés par votre cabinet ou chez vous ?
+```
+
+```
+### Pizzeria du 7e — email 1
+Objet : la paie de l'équipe
+
+Bonjour Georges,
+
+Soixante couverts en salle et quarante places en terrasse, ça demande une belle équipe à payer chaque mois. La paie, vous la confiez à un cabinet ou vous la gérez vous-même ?
+```
+
+**LinkedIn** : invitation sans note, puis le message 1 à envoyer 1 à 2 jours après l'acceptation.
+
+```
+### Pizzeria du 7e — linkedin-invitation 1
+(sans note)
+```
+
+**Emails** : « à chercher » pour les 15. Aucun outil d'enrichissement n'est connecté, et l'équipe ne devine jamais une adresse.
+
+**La liste d'envoi du jour** : 15 lignes LinkedIn (invitation, puis message après acceptation), et les 15 emails prêts dès que tu auras les adresses. Tu envoies toi-même. Dès que tu as des réponses, dis-le-moi : je range les messages qui marchent, et les prochains seront écrits sur leur modèle.
