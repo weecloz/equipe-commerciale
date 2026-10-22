@@ -43,16 +43,17 @@ Le plus simple : l'extension Chrome **[Weecloz](https://www.weecloz.io)**. Elle 
 
 Il te faut un abonnement Claude qui donne accès à **Claude Code**, et l'app Claude sur ton ordinateur. Pas besoin de terminal.
 
-1. Crée un dossier `Ma vente` sur ton ordinateur.
-2. Ouvre l'app Claude, onglet **Code**, et démarre une session dans ce dossier.
-3. Tape ces deux commandes, l'une après l'autre :
+**Dans l'app Claude**
+1. Ouvre les **Paramètres**, onglet **Plugins** (taper `/plugin` dans une session de l'onglet Code y mène aussi).
+2. Ajoute une source depuis un **dépôt GitHub** et colle : `weecloz/equipe-commerciale`
+3. Installe le plugin **equipe**.
+4. Crée un dossier `Ma vente` sur ton ordinateur, démarre une session de l'onglet **Code** dans ce dossier, et tape `/equipe`.
 
-   ```
-   /plugin marketplace add weecloz/equipe-commerciale
-   /plugin install equipe@weecloz
-   ```
-
-4. Tape `/equipe` (ou `/equipe:equipe` si la première forme ne répond pas).
+**Dans un terminal** (si tu utilises Claude Code en ligne de commande)
+```
+claude plugin marketplace add weecloz/equipe-commerciale
+claude plugin install equipe@weecloz
+```
 
 ## Le chef apprend à te connaître
 
