@@ -1,0 +1,8 @@
+{
+  "name": "weecloz",
+  "description": "Les plugins Claude Code de Weecloz",
+  "owner": { "name": "Weecloz", "url": "https://www.weecloz.io" },
+  "plugins": [
+    { "name": "equipe", "source": ".", "description": "1 chef et 40 agents commerciaux, en 10 départements." }
+  ]
+}

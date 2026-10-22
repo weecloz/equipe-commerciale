@@ -1,0 +1,11 @@
+{
+  "name": "equipe",
+  "displayName": "Équipe commerciale",
+  "version": "1.0.0",
+  "description": "Ton équipe de vente dans Claude Code : 1 chef et 40 agents répartis en 10 départements, de la stratégie au suivi des comptes clients.",
+  "author": { "name": "Weecloz", "url": "https://www.weecloz.io" },
+  "homepage": "https://github.com/weecloz/equipe-commerciale",
+  "repository": "https://github.com/weecloz/equipe-commerciale",
+  "license": "MIT",
+  "keywords": ["vente", "sales", "prospection", "closing", "agents"]
+}
