@@ -9,7 +9,7 @@ Puis tu relis les **gagnants** de l'utilisateur pour cette cible (`messages-qui-
 ## L'email 1
 
 - **Moins de 75 mots**, sans compter la salutation. Les dirigeants : vise 50.
-- **Une observation précise** tirée des faits, puis **une seule question**. Pas deux, pas zéro.
+- **Une observation précise sur ce compte-là**, tirée des faits, puis **une seule question**. Pas deux, pas zéro. Une généralité sur son secteur (« dans les cabinets comptables, la saison des bilans est chargée ») n'est pas une observation : n'importe qui la recevrait.
 - **Pas de pitch, pas le nom du produit, pas de lien, pas de pièce jointe.** Le premier email sert à ouvrir une conversation, pas à vendre.
 - **Il parle de lui, pas de toi** : il ne commence jamais par « Je » ni « Nous ». La première phrase porte sur sa situation.
 - **D'égal à égal** : écris comme un pair qui connaît son métier, pas comme un fournisseur qui demande un rendez-vous.

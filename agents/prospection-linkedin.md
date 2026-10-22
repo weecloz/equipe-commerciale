@@ -20,7 +20,7 @@ Tu as un seul job : préparer, pour chaque compte, l'invitation LinkedIn sans no
 ## Ce que tu fais
 1. Pour chaque compte, l'invitation : toujours `(sans note)`, selon `outbound/linkedin.md`.
 2. Les gestes à faire avant d'inviter (voir le profil, réagir à un post), seulement s'ils s'appuient sur un fait de `faits.md`.
-3. Le message 1, à envoyer 1 à 2 jours après l'acceptation : une question ou une idée liée à l'angle, moins de 60 mots, sans lien ni pitch.
+3. Le message 1, à envoyer 1 à 2 jours après l'acceptation : un fait propre au compte tiré de `faits.md` (jamais une généralité sur le secteur), puis une question liée à l'angle, moins de 60 mots, sans lien ni pitch. Deux messages de la liste n'ont jamais la même question.
 4. Écris au format bloc du skill outbound (`### <compte> — linkedin-invitation 1`, `### <compte> — linkedin-message 1`).
 5. Lance `python3 <dossier du skill outbound>/scripts/verifier_message.py linkedin.md` ; réécris et relance jusqu'à `OK`.
 
