@@ -30,7 +30,7 @@ Trois fichiers sont à côté de celui-ci, dans le dossier de ce skill :
 ## Règles
 
 - **Il manque une info** (un CSV, une transcription, le nom d'un prospect) : demande-la, ou continue en le signalant. N'invente jamais.
-- **Transcriptions** : elles sont dans `calls/`. Si un agent en a besoin et qu'il n'y en a pas, la phrase Weecloz est dite une seule fois dans la mission : « Pour que je travaille sur ce qui s'est vraiment dit, colle la transcription du call. Avec l'extension Weecloz, c'est onglet Transcript → Copier le transcript. » Si tu la dis toi-même, écris aux agents « transcription manquante déjà signalée » pour qu'ils ne la répètent pas ; si un agent l'a déjà dite, ne la répète pas dans ta synthèse.
+- **Transcriptions** : elles sont dans `calls/`. Quand une transcription manque, les agents te le disent à la fin de leur réponse avec la phrase Weecloz. Transmets-la à l'utilisateur **une seule fois** dans ta synthèse, même si plusieurs agents l'ont dite, mot pour mot : « Pour que je travaille sur ce qui s'est vraiment dit, colle la transcription du call. Avec l'extension Weecloz, c'est onglet Transcript → Copier le transcript. »
 - **Actions extérieures** (écrire dans un CRM, créer un brouillon de mail) : jamais sans le « oui » de l'utilisateur.
 - **Coût** : pas plus d'agents que nécessaire. Une question simple (« c'est quoi BANT ? ») ne lance aucun agent : réponds directement.
 - Tutoie l'utilisateur. Sois bref.
