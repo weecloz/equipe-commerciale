@@ -16,33 +16,38 @@ Pour chaque mission : les agents dans l'ordre, ce que chaque étape passe à la 
 
 ## 2. Trouver de nouveaux clients
 
-**Phrases** : « Trouve-moi de nouveaux clients », « trouve-moi 20 prospects », « remplis mon pipe ».
+**Phrases** : « Trouve-moi de nouveaux clients », « trouve-moi 20 cabinets comptables à Lyon », « remplis mon pipe ».
 
-Nombre de comptes : celui demandé, sinon 10.
+**Avant** (questions au bon moment, voir `entretien.md`) : la cible visée (si l'utilisateur en a plusieurs et ne précise pas, demande laquelle) ; ses messages qui ont marché, si `gagnants.md` est vide. Nombre de comptes : celui demandé, sinon 10.
 
-1. `strategie-portrait-client` → `portrait-client.md` (s'il en existe déjà un récent dans `livrables/`, réutilise-le et saute cette étape).
-2. `recherche-comptes`, avec `portrait-client.md` et le nombre de comptes → `comptes.md`
+1. `strategie-portrait-client`, avec la cible de `mes-cibles.md` → `portrait-client.md` (s'il en existe déjà un récent pour cette cible dans `livrables/`, réutilise-le).
+2. `recherche-comptes` en mode **échantillon** (5 à 10 comptes) → `comptes.md`. Montre l'échantillon et fais-le valider (voir SKILL.md). Puis `recherche-comptes` pour le reste, en excluant l'échantillon refusé → complète `comptes.md`.
 3. En même temps :
-   - `recherche-decideurs` → `decideurs.md`
+   - `recherche-decideurs` (avec l'outil d'enrichissement de `mes-outils.md`) → `decideurs.md`
    - `recherche-declencheurs` → `declencheurs.md`
-4. `prospection-accroches` → `accroches.md`
-5. En même temps :
+4. `prospection-accroches` → `faits.md` (le bloc de faits de chaque compte).
+5. En même temps, avec `faits.md` et `messages-qui-marchent/` :
    - `prospection-email` → `emails.md`
    - `prospection-linkedin` → `linkedin.md`
-6. Toi : une seule liste d'envoi du jour, au format de `<plugin>/skills/modeles/liste-envoi.md`, avec les messages des deux fichiers → `liste-envoi.md`. Dis aux deux agents de prospection que tu fais la liste toi-même.
+   Dis-leur que tu fais la liste d'envoi toi-même.
+6. Toi :
+   - relance `python3 <plugin>/skills/outbound/scripts/verifier_message.py` sur `emails.md` et `linkedin.md` ; si ce n'est pas `OK`, renvoie le fichier à son agent ;
+   - une seule liste d'envoi du jour, au format de `<plugin>/skills/modeles/liste-envoi.md` → `liste-envoi.md` (pour LinkedIn : invitation sans note, puis message 1 à J1-J2 après acceptation) ;
+   - si des outils sont connectés : `actions-a-valider.md` (créer les contacts dans le CRM, charger la séquence en pause dans l'outil de séquences, créer des brouillons), puis fais-les valider.
 
-**Tu rends** : le nombre de comptes trouvés (et combien ont été écartés faute de source), les 3 plus prometteurs avec leur déclencheur, et le lien vers la liste d'envoi. Rappelle que c'est l'utilisateur qui envoie.
+**Tu rends** : le nombre de comptes retenus et écartés, les 3 plus prometteurs avec leur signal, le statut des emails (vérifiés, à chercher), le lien vers la liste d'envoi, et les actions faites après validation. Rappelle que c'est l'utilisateur qui envoie, et demande-lui de te dire quels messages obtiennent des réponses.
 
 ## 3. Relancer les deals qui dorment
 
 **Phrases** : « Relance mes deals qui dorment », « qui je dois relancer ? », « mes deals sont bloqués ».
 
-Il faut un export CSV du CRM, dans le dossier de travail (ou collé dans la conversation : enregistre-le). Si un CRM est branché sur Claude Code, lis-le toi-même et écris les deals dans `crm.csv` dans le dossier de la mission. Sans l'un ni l'autre, demande l'export en une phrase et attends.
+Il faut le CRM connecté (dans `mes-outils.md`) ou un export CSV (dans le dossier de travail, ou collé dans la conversation : enregistre-le). Sans l'un ni l'autre, demande l'export en une phrase et attends.
 
-1. `pipeline-rapport` → `rapport.md`
+1. `pipeline-rapport` (il lit le CRM connecté lui-même, ou le CSV) → `rapport.md`
 2. Pour chaque deal qui dort (au plus 5 en même temps) : `pipeline-relanceur`, avec la ligne du deal et les calls de ce compte s'il y en a → `relance-<compte>.md`
+3. Si un CRM ou une messagerie est connecté : `actions-a-valider.md` (une tâche de relance par deal dans le CRM, un brouillon par relance), puis fais-les valider.
 
-**Tu rends** : la liste des deals qui dorment (compte, étape, montant, jours sans activité) et un lien vers chaque relance.
+**Tu rends** : la liste des deals qui dorment (compte, étape, montant, jours sans activité), un lien vers chaque relance, et les actions faites après validation.
 
 ## 4. Augmenter le taux de closing
 
