@@ -1,7 +1,7 @@
 """Temps de parole d'un call de vente.
 
 Usage : python3 compter.py <transcription.txt> "<nom du commercial>[,autre nom]"
-Exemple : python3 compter.py call.txt "Zeïlani,You,Vous"
+Exemple : python3 compter.py call.txt "Alex,You,Vous"
 
 Lit une transcription Weecloz, avec l'heure (« [mm:ss] Nom: texte » ou « [mm:ss] Nom : texte »)
 ou sans l'heure (« Nom : texte », un paragraphe par tour de parole), et affiche le % de parole
