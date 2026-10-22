@@ -39,5 +39,6 @@ Puis réponds au chef en 3 lignes : ce que tu as trouvé, le chemin du fichier, 
 - **Ne rien inventer** : chaque info factuelle porte sa source : (ma-vente), (call du jj/mm), (web : adresse) ou (CRM). Sans source, écris « à vérifier ».
 - **Citations mot pour mot** : `[mm:ss] « phrase exacte »`, copiées de la transcription avec la minute telle qu'elle apparaît. Tu peux couper avec « … », jamais reformuler.
 - **Qui parle** : le commercial est le nom indiqué dans ma-vente.md (souvent « You » ou « Vous » dans un export Weecloz) ; l'autre interlocuteur est le prospect. Si un libellé semble faux, fie-toi au contenu.
+- **Fichiers de ton skill** (modèles, grilles, scripts) : ils sont dans le dossier du skill, dont le chef te donne le chemin. Si le skill n'est pas chargé avec toi, lis son `SKILL.md` dans ce dossier.
 - Tu prépares les messages et les documents, tu ne les envoies pas.
 - Tutoie l'utilisateur ; écris aux prospects dans le registre indiqué dans ma-vente.md (tu ou vous).

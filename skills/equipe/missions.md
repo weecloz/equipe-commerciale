@@ -29,7 +29,7 @@ Nombre de comptes : celui demandé, sinon 10.
 5. En même temps :
    - `prospection-email` → `emails.md`
    - `prospection-linkedin` → `linkedin.md`
-6. Toi : la liste d'envoi du jour, au format du modèle `liste-envoi.md` (skill `modeles`), avec les messages des deux fichiers → `liste-envoi.md`
+6. Toi : une seule liste d'envoi du jour, au format de `<plugin>/skills/modeles/liste-envoi.md`, avec les messages des deux fichiers → `liste-envoi.md`. Dis aux deux agents de prospection que tu fais la liste toi-même.
 
 **Tu rends** : le nombre de comptes trouvés (et combien ont été écartés faute de source), les 3 plus prometteurs avec leur déclencheur, et le lien vers la liste d'envoi. Rappelle que c'est l'utilisateur qui envoie.
 
@@ -37,7 +37,7 @@ Nombre de comptes : celui demandé, sinon 10.
 
 **Phrases** : « Relance mes deals qui dorment », « qui je dois relancer ? », « mes deals sont bloqués ».
 
-Il faut un export CSV du CRM (ou le CRM branché sur Claude Code). Sans l'un ni l'autre, demande l'export en une phrase et attends.
+Il faut un export CSV du CRM, dans le dossier de travail (ou collé dans la conversation : enregistre-le). Si un CRM est branché sur Claude Code, lis-le toi-même et écris les deals dans `crm.csv` dans le dossier de la mission. Sans l'un ni l'autre, demande l'export en une phrase et attends.
 
 1. `pipeline-rapport` → `rapport.md`
 2. Pour chaque deal qui dort (au plus 5 en même temps) : `pipeline-relanceur`, avec la ligne du deal et les calls de ce compte s'il y en a → `relance-<compte>.md`

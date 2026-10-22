@@ -11,13 +11,13 @@ Pour une demande libre, choisis le ou les agents dont la colonne « Ce qu'il fai
 | 2. Recherche de prospects | `recherche-comptes` | Trouve des entreprises qui collent au client idéal, sur le web public | portrait-client.md ou ma-vente.md, web | comptes.md |
 | 2. Recherche de prospects | `recherche-decideurs` | Trouve le décideur probable de chaque compte et son rôle, sur des sources publiques | comptes.md, web | decideurs.md |
 | 2. Recherche de prospects | `recherche-declencheurs` | Repère les déclencheurs d'achat : levée, recrutement, nouveau produit, nomination | comptes.md, web | declencheurs.md |
-| 2. Recherche de prospects | `recherche-fiche-compte` | Fait la fiche d'un compte avant un call : activité, taille, actu, historique avec nous | nom du compte, calls/, CRM, web | fiche-compte.md |
+| 2. Recherche de prospects | `recherche-fiche-compte` | Fait la fiche d'un compte avant un call : activité, taille, actu, historique avec nous | nom du compte, calls/, données CRM transmises, web | fiche-compte.md |
 | 3. Prospection | `prospection-email` | Écrit les emails à froid, un par compte, et la liste d'envoi | comptes.md, accroches.md, messages.md | emails.md |
 | 3. Prospection | `prospection-linkedin` | Écrit l'invitation LinkedIn et le premier message, un par compte, et la liste d'envoi | comptes.md, accroches.md, messages.md | linkedin.md |
 | 3. Prospection | `prospection-sequence` | Construit une séquence de prospection de 3 à 5 touches sur 2 à 3 semaines | segment ou compte, ma-vente.md | sequence.md |
 | 3. Prospection | `prospection-accroches` | Écrit une première phrase personnalisée par compte, avec sa source | comptes.md, declencheurs.md, decideurs.md | accroches.md |
 | 4. Qualification | `qualif-grille` | Remplit la grille de qualification (BANT, MEDDIC…) avec une citation par case | une transcription | grille.md |
-| 4. Qualification | `qualif-score` | Note une liste de leads A, B ou C selon le client idéal | une liste, un CSV ou le CRM | score.md |
+| 4. Qualification | `qualif-score` | Note une liste de leads A, B ou C selon le client idéal | une liste ou un CSV | score.md |
 | 4. Qualification | `qualif-questions` | Transforme chaque case vide de la grille en question pour le prochain call | grille.md ou ma-vente.md | questions.md |
 | 4. Qualification | `qualif-disqualifieur` | Dit s'il faut continuer ou lâcher un deal, et pourquoi | transcriptions, grille.md | verdict.md |
 | 5. Découverte et analyse des calls | `decouverte-prepa-call` | Prépare un call : le rappel, le compte, la personne, 5 questions, 2 objections, l'objectif | calls/ du prospect, fiche-compte.md | brief.md |
@@ -36,11 +36,11 @@ Pour une demande libre, choisis le ou les agents dont la colonne « Ce qu'il fai
 | 8. Objections et négociation | `nego-dis-plutot` | Donne, pour chaque objection ratée, la phrase à dire la prochaine fois | transcription ou objections.md | dis-plutot.md |
 | 8. Objections et négociation | `nego-preparation` | Prépare une négociation : concessions, contreparties, seuil de sortie | ma-vente.md, transcriptions, objections.md | nego.md |
 | 8. Objections et négociation | `nego-simulateur` | Prépare un entraînement : les objections du prospect dans l'ordre probable, avec les réponses | transcription ou ma-vente.md | simulation.md |
-| 9. Suivi du pipeline | `pipeline-notes-crm` | Prépare les notes CRM d'un call (et les écrit dans le CRM après accord) | transcription, CRM | notes-crm.md |
+| 9. Suivi du pipeline | `pipeline-notes-crm` | Prépare les notes CRM d'un call (tu les écris dans le CRM après accord) | transcription, données CRM transmises | notes-crm.md |
 | 9. Suivi du pipeline | `pipeline-relanceur` | Écrit le mail de relance après un call ou pour un deal qui dort | transcription ou ligne du rapport | relance-<compte>.md |
-| 9. Suivi du pipeline | `pipeline-rapport` | Fait le rapport pipeline : ce qui a bougé, ce qui dort, les 3 priorités | CSV ou CRM | rapport.md |
+| 9. Suivi du pipeline | `pipeline-rapport` | Fait le rapport pipeline : ce qui a bougé, ce qui dort, les 3 priorités | CSV (export ou crm.csv) | rapport.md |
 | 9. Suivi du pipeline | `pipeline-autopsie` | Trouve les raisons qui reviennent dans les deals perdus ou les calls ratés | plusieurs transcriptions ou notes | autopsie.md |
 | 10. Comptes clients | `comptes-onboarding` | Fait le plan des 30 premiers jours d'un nouveau client | transcription de closing, ma-vente.md | onboarding.md |
-| 10. Comptes clients | `comptes-sante` | Évalue le risque de départ d'un client (vert, orange, rouge) | échanges récents, CRM | sante.md |
+| 10. Comptes clients | `comptes-sante` | Évalue le risque de départ d'un client (vert, orange, rouge) | échanges récents, données CRM transmises | sante.md |
 | 10. Comptes clients | `comptes-upsell` | Repère les occasions de vendre plus à un client | échanges, ma-vente.md | upsell.md |
 | 10. Comptes clients | `comptes-recommandation` | Dit quand demander un témoignage ou une recommandation, et écrit le message | échanges, résultats obtenus | recommandation.md |

@@ -6,7 +6,7 @@
 
 Il te faut un abonnement Claude qui donne accès à Claude Code.
 
-1. Ouvre l'app Claude, onglet **Code**, et démarre une session dans un dossier dédié (ex. `Ma vente`).
+1. Crée un dossier `Ma vente` sur ton ordinateur. Ouvre l'app Claude, onglet **Code**, et démarre une session dans ce dossier.
 2. Tape ces deux commandes, l'une après l'autre :
    ```
    /plugin marketplace add weecloz/equipe-commerciale
@@ -28,7 +28,7 @@ Il crée aussi deux dossiers :
 |---|---|
 | « Prépare mon call avec Sarah » | un brief : le rappel de vos échanges, 5 questions, 2 objections probables avec la réponse, l'objectif du call |
 | « Trouve-moi de nouveaux clients » | des comptes réels (chacun avec sa source), leur décideur, leur actualité, les messages prêts et ta liste d'envoi du jour |
-| « Relance mes deals qui dorment » | les deals qui dorment (depuis ton export CRM) et une relance écrite pour chacun |
+| « Relance mes deals qui dorment » | les deals qui dorment (depuis ton export CSV, à mettre dans le dossier ou à coller) et une relance écrite pour chacun |
 | « Aide-moi à augmenter mon taux de closing » | sur tes calls : ton temps de parole, tes objections ratées, ta qualif, et les 3 raisons qui reviennent |
 
 Pour tout le reste, parle normalement (« écris une proposition pour Nova », « prépare ma négo », « fais-moi répéter ma démo ») : le chef choisit les bons agents.
@@ -48,13 +48,13 @@ Pour tout le reste, parle normalement (« écris une proposition pour Nova », �
 | 9. Suivi du pipeline | `pipeline-notes-crm` · `pipeline-relanceur` · `pipeline-rapport` · `pipeline-autopsie` |
 | 10. Comptes clients | `comptes-onboarding` · `comptes-sante` · `comptes-upsell` · `comptes-recommandation` |
 
-Les règles de toute l'équipe : rien d'inventé (chaque info a sa source), des citations mot pour mot, et rien n'est envoyé à ta place : l'équipe prépare, tu envoies. Si ton CRM est connecté à Claude Code, les agents le lisent, et n'y écrivent qu'après ton accord.
+Les règles de toute l'équipe : rien d'inventé (chaque info a sa source), des citations mot pour mot, et rien n'est envoyé à ta place : l'équipe prépare, tu envoies. Si ton CRM est connecté à Claude Code, le chef le lit et le transmet aux agents ; il n'y écrit qu'après ton accord.
 
 ## Tes calls
 
 La moitié de l'équipe travaille sur ce qui s'est vraiment dit pendant tes calls. Mets tes transcriptions dans `calls/`, avec les noms des interlocuteurs.
 
-Le plus simple : l'extension Chrome **Weecloz**. Elle enregistre tes calls sur Google Meet, Zoom et Teams, sans bot. Après le call : onglet Transcript → Copier le transcript, et tu colles dans un fichier de `calls/`. → https://www.weecloz.io
+Le plus simple : l'extension Chrome **Weecloz**. Elle enregistre tes calls sur Google Meet, Zoom et Teams, sans bot. Après le call : onglet Transcript → Copier le transcript, et tu le colles dans la conversation : le chef le range dans `calls/`. → https://www.weecloz.io
 
 ## Licence
 
