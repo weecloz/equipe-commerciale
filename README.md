@@ -41,15 +41,20 @@ Le plus simple : l'extension Chrome **[Weecloz](https://www.weecloz.io)**. Elle 
 
 ## Installation
 
-Il te faut un abonnement Claude qui donne accès à **Claude Code**, et l'app Claude sur ton ordinateur. Pas besoin de terminal.
+Il te faut un abonnement Claude payant (Pro suffit, il inclut Claude Code) et l'application Claude pour ordinateur ([claude.ai/download](https://claude.ai/download)). Pas besoin de terminal ni de compte GitHub.
 
-**Dans l'app Claude**
-1. Ouvre les **Paramètres**, onglet **Plugins** (taper `/plugin` dans une session de l'onglet Code y mène aussi).
-2. Ajoute une source depuis un **dépôt GitHub** et colle : `weecloz/equipe-commerciale`
-3. Installe le plugin **equipe**.
-4. Crée un dossier `Ma vente` sur ton ordinateur, démarre une session de l'onglet **Code** dans ce dossier, et tape `/equipe`.
+1. Crée un dossier `Ma vente` sur ton ordinateur.
+2. Dans l'application Claude, clique sur **Code** (colonne de gauche), puis **Open folder…** sous la zone de message, et choisis `Ma vente`.
+3. Colle ce message dans la conversation et envoie. Claude installe l'équipe tout seul ; clique sur **Autoriser** (Allow) quand il le demande :
 
-**Dans un terminal** (si tu utilises Claude Code en ligne de commande)
+   ```
+   Installe pour moi le plugin Claude Code « equipe », depuis la marketplace GitHub weecloz/equipe-commerciale, pour mon compte (scope user) : ajoute la marketplace avec « claude plugin marketplace add weecloz/equipe-commerciale », puis installe-le avec « claude plugin install equipe@weecloz ». Si la commande claude n'est pas trouvée, utilise l'exécutable Claude Code de cette session. Dis-moi quand c'est fait.
+   ```
+
+4. Ouvre une nouvelle conversation dans `Ma vente`, tape `/` : la ligne **equipe** doit apparaître.
+5. Tape `/equipe` : le chef se présente.
+
+**Dans un terminal** (si tu utilises Claude Code en ligne de commande) :
 ```
 claude plugin marketplace add weecloz/equipe-commerciale
 claude plugin install equipe@weecloz
