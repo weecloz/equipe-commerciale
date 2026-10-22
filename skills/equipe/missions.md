@@ -21,7 +21,7 @@ Pour chaque mission : les agents dans l'ordre, ce que chaque étape passe à la 
 **Avant** (questions au bon moment, voir `entretien.md`) : la cible visée (si l'utilisateur en a plusieurs et ne précise pas, demande laquelle) ; ses messages qui ont marché, si `gagnants.md` est vide. Nombre de comptes : celui demandé, sinon 10.
 
 1. `strategie-portrait-client`, avec la cible de `mes-cibles.md` → `portrait-client.md` (s'il en existe déjà un récent pour cette cible dans `livrables/`, réutilise-le).
-2. `recherche-comptes` en mode **échantillon** (5 à 10 comptes) → `comptes.md`. Montre l'échantillon et fais-le valider (voir SKILL.md). Puis `recherche-comptes` pour le reste, en excluant l'échantillon refusé → complète `comptes.md`.
+2. `recherche-comptes` → `comptes.md`. Plus de 10 comptes demandés : d'abord un **échantillon** de 5 à 10 comptes, que tu fais valider (voir SKILL.md), puis le reste en excluant les comptes refusés. 10 comptes ou moins : montre la liste complète et fais-la valider de la même façon avant de chercher les décideurs.
 3. En même temps :
    - `recherche-decideurs` (avec l'outil d'enrichissement de `mes-outils.md`) → `decideurs.md`
    - `recherche-declencheurs` → `declencheurs.md`
